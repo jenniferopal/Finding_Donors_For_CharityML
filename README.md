@@ -8,7 +8,7 @@ that was established to provide financial support for people eager to learn mach
 My goal will be to evaluate and optimize several different supervised learners to determine which algorithm 
 will provide the highest donation yield while also reducing the total number of letters being sent to ask for donations.
 
-Installations
+#Installations
 
 This project requires Python 2.7 and the following Python libraries installed:
 
@@ -20,7 +20,7 @@ You will also need to have software installed to run and execute an iPython Note
 
 I recommend installing Anaconda.
 
-Run
+#Run
 In a terminal or command window, navigate to the top-level project directory finding_donors/ (that contains this README) and run one of the following commands:
 
 ipython notebook finding_donors.ipynb
@@ -29,10 +29,10 @@ or
 jupyter notebook finding_donors.ipynb
 This will open the iPython Notebook software and project file in your browser.
 
-Data
+#Data
 The modified census dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper "Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid", by Ron Kohavi. You may find this paper online, with the original dataset hosted on UCI.
 
-Features
+#Features
 
 age: Age
 
@@ -60,6 +60,6 @@ hours-per-week: Average Hours Per Week Worked
 
 native-country: Native Country (United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands)
 
-Target Variable
+#Target Variable
 
 income: Income Class (<=50K, >50K)
